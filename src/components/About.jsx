@@ -43,15 +43,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-0 text-secondary text-[17px] max-w-8xl leading-[30px]'
       >
-        I'm a Systems and computer engineering student with basic knowledge in algorithms for
-        mathematical problem solving, object-oriented programming, Java game development and
-        Unity, creation of databases in MySQL and data structures implementations, its efficiency and its complexity.
-        I stand out for having the necessary soft skills to collaborate and even lead a
-        team. I recognize the importance of continuous and autonomous learning, especially in areas of
-        constant transformation such as technology and development.
+        I am a Systems and Computer Engineering student and a Full-Stack Developer with expertise in web development using frameworks like React.js and Django. I also possess knowledge in Three.js for WebGL, and I am currently exploring AI applications using Python.
+        One of my strengths is my proficiency in soft skills, enabling me to effectively collaborate and even lead teams. I strongly believe in the significance of continuous and autonomous learning, especially in fast-evolving fields like technology and development.
       </motion.p>
 
-      <div className='mt-7 flex flex-wrap gap-10'>
+      <div className='mt-[45px] flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
