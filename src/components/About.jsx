@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-0 text-secondary text-[17px] max-w-8xl leading-[30px]'
       >
-        I am a Systems and Computer Engineering student and a Full-Stack Developer with expertise in web development using frameworks like React.js and Django. I also possess knowledge in Three.js for WebGL, and I am currently exploring AI applications using Python.
+        I am a Systems and Computer Engineering student and a Full-Stack Developer with expertise in web development using frameworks like React.js and Django. I also possess knowledge in Three.js for WebGL and creation of databases with MySQL and MongoDB, and I am currently exploring AI applications using Python.
         One of my strengths is my proficiency in soft skills, enabling me to effectively collaborate and even lead teams. I strongly believe in the significance of continuous and autonomous learning, especially in fast-evolving fields like technology and development.
       </motion.p>
 
