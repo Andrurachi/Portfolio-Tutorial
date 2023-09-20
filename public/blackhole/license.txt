@@ -1,0 +1,11 @@
+Model Information:
+* title:	Massive Morphoser Fourth Dimension
+* source:	https://sketchfab.com/3d-models/massive-morphoser-fourth-dimension-10326372fed847c7b9318213a1a483bf
+* author:	tamminen (https://sketchfab.com/tamminen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Massive Morphoser Fourth Dimension" (https://sketchfab.com/3d-models/massive-morphoser-fourth-dimension-10326372fed847c7b9318213a1a483bf) by tamminen (https://sketchfab.com/tamminen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
