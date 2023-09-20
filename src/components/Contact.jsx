@@ -21,18 +21,18 @@ const Contact = () => {
   const handleSubmit = (e) => {}
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-[0.75] px-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubTextContact}>Get in touch</p>
+        <h3 className={styles.sectionHeadTextContact}>Contact.</h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="flex flex-col gap-4"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your name</span>
@@ -61,7 +61,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your message</span>
             <textarea 
-              rows='7'
+              rows='4'
               name="message"
               value={form.message}
               onChange={handleChange}
@@ -81,7 +81,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
-        className="xl:flex-1 xl:w-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:w-auto md:h-[550px] h-[350px] mt-10"
       >
         <BlackholeCanvas />
       </motion.div>
